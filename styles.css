@@ -40,7 +40,7 @@ nav ul li a {
 /* Hero section styles */
 #hero {
     text-align: center;
-    background-color: #ff8c00;
+    background-color: #ffa500;
     margin-top: 80px;
 }
 
@@ -100,7 +100,7 @@ nav ul li a {
 
 #why-choose-us {
     text-align: center; /* Center-align the content */
-    background-color: #ff8c00;
+    background-color: #ffa500;
 }
 
 .choose-us-container {
@@ -121,13 +121,13 @@ nav ul li a {
 #our-numbers {
     display: flex;
     justify-content: space-between;
-    background-color: #ff8c00;
+    background-color: #ffa500;
 }
 
 .number {
     flex: 1;
     padding: 20px;
-    border-right: 1px solid #ff8c00; /* Add a border between columns */
+    border-right: 1px solid #ffa500; /* Add a border between columns */
 }
 
 .number:last-child{
