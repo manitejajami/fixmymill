@@ -1,0 +1,160 @@
+/* Default styles for larger screens */
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: #ffffff;
+    
+}
+
+/* Header styles */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Hero section styles */
+#hero {
+    text-align: center;
+    background-color: #ff8c00;
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Lulo Clean', sans-serif;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+#why-choose-us {
+    text-align: center; /* Center-align the content */
+    background-color: #ff8c00;
+}
+
+.choose-us-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.choose-us-item {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #000000; /* Add a border between columns */
+}
+
+.choose-us-item:last-child {
+    border-right: none; /* Remove border from the last column */
+}
+
+#our-numbers {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff8c00;
+}
+
+.number {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #ff8c00; /* Add a border between columns */
+}
+
+.number:last-child{
+    border-right: none; /* Remove border from the last column */
+}
+
+/* Add styles for other sections (about-us, services, FAQ, contact) here */
+
+/* Footer styles */
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #000000; /* Add a border between columns */
+}
+
+.footer-column:last-child {
+    border-right: none; /* Remove border from the last column */
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    /* Styles for screens smaller than 768px wide (e.g., tablets and mobiles) */
+
+    /* Reduce header padding */
+    header {
+        padding: 10px 0;
+    }
+
+    /* Center navigation links */
+    nav ul {
+        justify-content: center;
+    }
+
+    /* Adjust hero font sizes */
+    #hero h1 {
+        font-size: 28px;
+    }
+
+    #hero p {
+        font-size: 16px;
+    }
+
+    /* Adjust button padding */
+    .cta-button {
+        padding: 10px 20px;
+    }
+
+    /* Add responsive styles for other sections and elements as needed */
+}
