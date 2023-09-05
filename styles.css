@@ -62,6 +62,34 @@ nav ul li a {
     background-color: #555;
 }
 
+
+#brands-we-serve {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 40px 0;
+}
+
+.brands-container {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden; /* Hide overflow to prevent logos from showing outside the container */
+}
+
+.brands-container img {
+    max-width: 100px; /* Adjust the width of your logos as needed */
+    margin: 0 20px; /* Adjust the margin between logos as needed */
+    animation: moveLeftToRight 10s linear infinite; /* Apply the animation to the logos */
+}
+
+@keyframes moveLeftToRight {
+    0% {
+        transform: translateX(-100%); /* Start off the screen on the left */
+    }
+    100% {
+        transform: translateX(100%); /* Move off the screen on the right */
+    }
+}
+
 #why-choose-us {
     text-align: center; /* Center-align the content */
     background-color: #ff8c00;
