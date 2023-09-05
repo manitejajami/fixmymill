@@ -2,7 +2,7 @@
 body {
     font-family: 'Barlow Condensed', sans-serif;
     background-color: #ffffff;
-    
+    margin: 0;
 }
 
 /* Header styles */
@@ -10,6 +10,13 @@ header {
     background-color: #000000;
     color: #fff;
     padding: 20px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+main {
+    margin-top: 100px; /* Adjust the value based on your header's height */
 }
 
 nav ul {
@@ -34,6 +41,7 @@ nav ul li a {
 #hero {
     text-align: center;
     background-color: #ff8c00;
+    margin-top: 80px;
 }
 
 #hero h1 {
